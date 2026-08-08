@@ -9,10 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # Permissão para fazer push
+      contents: write     # Permissão para push
 
     steps:
-      # 1. Gerar os SVGs com a cobrinha
       - name: Gerar cobrinha
         uses: Platane/snk@v3
         with:
@@ -21,14 +20,17 @@ jobs:
             output/github-snake.svg?color_snake=#000&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             output/github-snake-dark.svg?color_snake=#fff&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      # 2. Fazer commit e push para a branch 'output'
       - name: Push para a branch output
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan output || git checkout output
+          # Remove a branch output local (se existir) e cria uma nova órfã
+          git branch -D output || true
+          git checkout --orphan output
+          # Remove todos os arquivos do índice
           git rm -rf . || true
+          # Copia os SVGs gerados
           cp -r output/* .
           git add *.svg
-          git commit -m "Atualizar cobrinha" || echo "Nada para commitar"
+          git commit -m "Atualizar cobrinha"
           git push --force origin HEAD:output
