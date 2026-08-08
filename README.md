@@ -74,4 +74,4 @@
 
 ---
 
-<h4 align="center">⭐ **Obrigado pela visita!** Volte sempre para ver meus novos projetos.</h4>
+<h4 align="center">⭐ <strong>Obrigado pela visita!</strong> Volte sempre para ver meus novos projetos.</h4>
