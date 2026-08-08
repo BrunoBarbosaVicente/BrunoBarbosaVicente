@@ -38,13 +38,10 @@
 
 ---
 
-## 📊 Estatísticas do GitHub
+<h2 align="center"> 📊 Estatísticas do GitHub </h2>
 
 <p align="center">
-  <a href="https://github.com/BrunoBarbosaVicente">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=BrunoBarbosaVicente&show_icons=true&theme=dark" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrunoBarbosaVicente&layout=compact&langs_count=7&theme=dark" />
-  </a>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BrunoBarbosaVicente&theme=dark&locale=pt_BR" />
 </p>
 
 ---
