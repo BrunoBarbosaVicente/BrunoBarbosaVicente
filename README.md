@@ -46,18 +46,20 @@
 
 ---
 
-## 🐍 Minhas Contribuições
+<h2 align="center"> 🐍 Minhas Contribuições </h2>
 
 <!-- A cobrinha será gerada automaticamente pelo GitHub Actions -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/BrunoBarbosaVicente/BrunoBarbosaVicente/blob/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/BrunoBarbosaVicente/BrunoBarbosaVicente/blob/output/github-snake.svg" />
-  <img alt="Cobrinha das contribuições" src="https://github.com/BrunoBarbosaVicente/BrunoBarbosaVicente/blob/output/github-snake.svg" />
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/BrunoBarbosaVicente/BrunoBarbosaVicente/blob/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/BrunoBarbosaVicente/BrunoBarbosaVicente/blob/output/github-snake.svg" />
+    <img alt="Cobrinha das contribuições" src="https://github.com/BrunoBarbosaVicente/BrunoBarbosaVicente/blob/output/github-snake.svg" />
+  </picture>
+</div>
 
 ---
 
-## 📫 Como me encontrar
+<h2 align="center"> 📫 Como me encontrar </h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/brunobarbosavicente/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
@@ -67,4 +69,4 @@
 
 ---
 
-⭐ **Obrigado pela visita!** Volte sempre para ver meus novos projetos.
+<h4 align="center">⭐ **Obrigado pela visita!** Volte sempre para ver meus novos projetos.</h4>
