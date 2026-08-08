@@ -2,16 +2,21 @@ name: Gerar cobrinha das contribuições
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # Todo dia à meia-noite UTC
-  workflow_dispatch:       # Permite rodar manualmente
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # Permissão para push
+      contents: write
 
     steps:
+      # 🔑 PASSO 1: Clonar o repositório (para poder fazer git push)
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      # 🐍 PASSO 2: Gerar a cobrinha (os SVGs vão para a pasta output/)
       - name: Gerar cobrinha
         uses: Platane/snk@v3
         with:
@@ -20,17 +25,21 @@ jobs:
             output/github-snake.svg?color_snake=#000&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             output/github-snake-dark.svg?color_snake=#fff&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
+      # 📤 PASSO 3: Criar/atualizar a branch 'output' e fazer push
       - name: Push para a branch output
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Remove a branch output local (se existir) e cria uma nova órfã
+          # Se a branch output já existe localmente, deleta
           git branch -D output || true
+          # Cria uma branch órfã (sem histórico)
           git checkout --orphan output
-          # Remove todos os arquivos do índice
+          # Remove todos os arquivos do índice (limpa a branch)
           git rm -rf . || true
-          # Copia os SVGs gerados
+          # Copia os SVGs gerados para a raiz da branch
           cp -r output/* .
+          # Adiciona e comita
           git add *.svg
           git commit -m "Atualizar cobrinha"
+          # Força o push para a branch output (sobrescreve)
           git push --force origin HEAD:output
