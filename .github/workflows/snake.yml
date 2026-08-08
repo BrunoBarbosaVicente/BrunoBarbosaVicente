@@ -8,22 +8,27 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    # 🔑 PERMISSÃO ESSENCIAL PARA FAZER PUSH
     permissions:
-      contents: write
+      contents: write     # Permissão para fazer push
 
     steps:
+      # 1. Gerar os SVGs com a cobrinha
       - name: Gerar cobrinha
         uses: Platane/snk@v3
-        id: snake
         with:
           github_user_name: BrunoBarbosaVicente
           outputs: |
             output/github-snake.svg?color_snake=#000&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             output/github-snake-dark.svg?color_snake=#fff&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
-          # 👇 Isso faz o push automaticamente para a branch 'output'
-          push: true
-          branch: output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Fazer commit e push para a branch 'output'
+      - name: Push para a branch output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan output || git checkout output
+          git rm -rf . || true
+          cp -r output/* .
+          git add *.svg
+          git commit -m "Atualizar cobrinha" || echo "Nada para commitar"
+          git push --force origin HEAD:output
