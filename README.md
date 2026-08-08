@@ -1,16 +1,41 @@
-## Hi there 👋
+👋 Olá! Eu sou Bruno Barbosa
 
-<!--
-**BrunoBarbosaVicente/BrunoBarbosaVicente** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+📱 Desenvolvedor Android em formação
+🎓 Engenharia de Software
+💻 Analista de Suporte TI N2
 
-Here are some ideas to get you started:
+Estou direcionando minha carreira para o desenvolvimento Android,
+com foco em Kotlin e desenvolvimento de aplicações móveis.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Atualmente estudando:
+Kotlin • Android • Jetpack Compose • APIs REST • Git
+
+---
+
+## 🛠️ Tecnologias
+
+[ícones]
+
+---
+
+## 🚀 Projetos
+
+[seus melhores projetos]
+
+---
+
+## 📊 GitHub Stats
+
+[estatísticas]
+
+---
+
+## 🐍 Minhas contribuições
+
+[cobrinha]
+
+---
+
+## 📫 Contato
+
+LinkedIn • Email
