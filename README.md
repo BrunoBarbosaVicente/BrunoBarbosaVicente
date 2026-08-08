@@ -34,6 +34,11 @@
 
 <h2 align="center"> 📱 Projetos Android em destaque </h2>
 
+| Projeto | Descrição | Tecnologias |
+|---------|-----------|-------------|
+| [Calculadora de IMC](https://github.com/BrunoBarbosaVicente/calculadora-imc) | App que calcula o Índice de Massa Corporal com base no peso e altura, exibindo a classificação (abaixo do peso, normal, sobrepeso, etc.). | Kotlin, Android, XML |
+| [Calculadora Completa](https://github.com/BrunoBarbosaVicente/calculadora-simples) | Calculadora com as quatro operações básicas (soma, subtração, multiplicação e divisão), com interface simples e intuitiva. | Kotlin, Android, XML |
+
 > Em breve, novos projetos Android desenvolvidos durante minha jornada de aprendizado.
 
 ---
