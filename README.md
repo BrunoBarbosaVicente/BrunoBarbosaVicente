@@ -1,5 +1,5 @@
 <!-- CABEÇALHO COM GIF DE BOAS-VINDAS (opcional) -->
-<h1 align="center">Olá, eu sou Bruno Barbosa 👋</h1>
+<h1 align="center">Olá, eu sou Bruno Barbosa Vicente 👋</h1>
 
 <p align="center">
   <strong>📱 Desenvolvedor Android em formação</strong><br>
