@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 Sobre mim
+<p align="center> ## 🎯 Sobre mim 
 
 - 👨‍💻 Atualmente focado em **Kotlin** e **Android** (Jetpack Compose, Coroutines, MVVM).
 - 🌱 Estudando **APIs REST**, **Firebase** e **arquitetura limpa**.
@@ -71,9 +71,9 @@ Assim que você tiver projetos prontos, substitua os placeholders abaixo por lin
 ## 📫 Como me encontrar
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/brunobarbosavicente/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:bruno.barbosa@email.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://twitter.com/BrunoBarbosa"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/brunobarbosavicente/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="mailto:brunobarbosavicente@hotmail.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
+  <a href="https://www.instagram.com/brunobarbosa.v"><img src="https://skillicons.dev/icons?i=instagram" /></a>
 </p>
 
 ---
