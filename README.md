@@ -3,7 +3,7 @@
 
 <p align="center">
   <strong>📱 Desenvolvedor Android em formação</strong><br>
-  🎓 Engenharia de Software &nbsp;|&nbsp; 💻 Analista de Suporte TI N2<br>
+  🎓 Cursando Engenharia de Software &nbsp;|&nbsp; 💻 Analista de Suporte TI N2<br>
   <br>
   <em>“Transformando ideias em apps funcionais e bem projetados.”</em>
 </p>
@@ -12,8 +12,8 @@
 
 <h2 align="center"> 🎯 Sobre mim </h2>
 
-- 👨‍💻 Atualmente focado em **Kotlin** e **Android** (Jetpack Compose, Coroutines, MVVM).
-- 🌱 Estudando **APIs REST**, **Firebase** e **arquitetura limpa**.
+- 🎓 Estudante de <strong>Engenharia de Software</strong><br>
+- 📱 Atualmente focado em <strong>Kotlin e desenvolvimento Android</strong><br>
 - 💼 Trabalho com suporte e infraestrutura, mas minha paixão é o desenvolvimento mobile.
 - 🎯 Objetivo: me tornar um desenvolvedor Android Júnior e contribuir com apps que façam a diferença.
 
