@@ -10,7 +10,7 @@
 
 ---
 
-<p align="center> ## 🎯 Sobre mim 
+<h2 align="center"> 🎯 Sobre mim </h2>
 
 - 👨‍💻 Atualmente focado em **Kotlin** e **Android** (Jetpack Compose, Coroutines, MVVM).
 - 🌱 Estudando **APIs REST**, **Firebase** e **arquitetura limpa**.
@@ -19,7 +19,7 @@
 
 ---
 
-## 🛠️ Tecnologias que estou usando/estudando
+<h2 align="center"> 🛠️ Tecnologias que estou usando/estudando </h2>
 
 <!-- Ícones apenas (sem texto) -->
 <p align="center">
@@ -32,17 +32,9 @@
 
 ---
 
-## 📱 Projetos Android em destaque
+<h2 align="center"> 📱 Projetos Android em destaque </h2>
 
-Assim que você tiver projetos prontos, substitua os placeholders abaixo por links reais.
-
-| Projeto | Descrição | Tecnologias |
-|---------|-----------|-------------|
-| [App de Clima](https://github.com/BrunoBarbosaVicente/app-clima) | Consulta previsão do tempo via API | Kotlin, Jetpack Compose, Retrofit, Coroutines |
-| [Lista de Tarefas](https://github.com/BrunoBarbosaVicente/lista-tarefas) | Gerenciador de tarefas com Room | Kotlin, Room, LiveData, MVVM |
-| [Meu Portfólio](https://github.com/BrunoBarbosaVicente/meu-portfolio) | App com minhas informações e contato | Jetpack Compose, Navigation |
-
-> 💡 **Dica:** mantenha sempre o README de cada projeto bem explicativo, com capturas de tela e instruções de execução.
+> Em breve, novos projetos Android desenvolvidos durante minha jornada de aprendizado.
 
 ---
 
@@ -50,8 +42,8 @@ Assim que você tiver projetos prontos, substitua os placeholders abaixo por lin
 
 <p align="center">
   <a href="https://github.com/BrunoBarbosaVicente">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=BrunoBarbosaVicente&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrunoBarbosaVicente&layout=compact&langs_count=7&theme=radical"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=BrunoBarbosaVicente&show_icons=true&theme=dark" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrunoBarbosaVicente&layout=compact&langs_count=7&theme=dark" />
   </a>
 </p>
 
