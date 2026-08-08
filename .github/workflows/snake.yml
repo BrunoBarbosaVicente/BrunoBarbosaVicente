@@ -2,8 +2,8 @@ name: Gerar cobrinha das contribuições
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # Roda todo dia à meia-noite UTC
-  workflow_dispatch:       # Permite rodar manualmente
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Gerar a cobrinha
         uses: Platane/snk@v3
@@ -22,7 +22,7 @@ jobs:
             output/github-snake-dark.svg?color_snake=#fff&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
       - name: Commit e push dos arquivos gerados
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: output
