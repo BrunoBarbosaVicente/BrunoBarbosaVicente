@@ -46,7 +46,8 @@
 <h2 align="center"> 📊 Estatísticas do GitHub </h2>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BrunoBarbosaVicente&theme=dark&locale=pt_BR" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BrunoBarbosaVicente&theme=dark&locale=pt_BR" /> <br>
+  <img src="https://ghstats.dev/api/sparkline?username=BrunoBarbosaVicente&days=30&width=420" />
 </p>
 
 ---
