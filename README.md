@@ -48,11 +48,11 @@
 <p align="center">
   <img
     height="150"
-    src="https://github-readme-stats-sage-seven-49.vercel.app/api?username=BrunoBarbosaVicente&show_icons=true&theme=github_dark&hide_border=true&count_private=true"
+    src="https://github-readme-stats-sage-seven-49.vercel.app/api?username=BrunoBarbosaVicente&show_icons=true&theme=dark&bg_color=0d1117&title_color=fe8019&icon_color=fe8019&text_color=ffffff&hide_border=true&count_private=true&locale=pt-br&v=2"
   />
   <img
     height="150"
-    src="https://github-readme-stats-sage-seven-49.vercel.app/api/top-langs/?username=BrunoBarbosaVicente&layout=compact&theme=github_dark&hide_border=true"
+    src="https://github-readme-stats-sage-seven-49.vercel.app/api/top-langs/?username=BrunoBarbosaVicente&layout=compact&theme=dark&bg_color=0d1117&title_color=fe8019&text_color=ffffff&hide_border=true&locale=pt-br&v=2"
   />
 </p>
 
