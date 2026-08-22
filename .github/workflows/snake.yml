@@ -22,8 +22,8 @@ jobs:
         with:
           github_user_name: BrunoBarbosaVicente
           outputs: |
-            output/github-snake.svg?color_snake=#000&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
-            output/github-snake-dark.svg?color_snake=#fff&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            output/github-snake.svg?color_snake=#fe8019&color_dots=#ebedf0,#ffebcc,#ffc266,#ff9900,#fe8019
+            output/github-snake-dark.svg?color_snake=#fe8019&color_dots=#161b22,#4c2e10,#7e4a11,#b26715,#fe8019
 
       # 📤 PASSO 3: Criar/atualizar a branch 'output' e fazer push
       - name: Push para a branch output
