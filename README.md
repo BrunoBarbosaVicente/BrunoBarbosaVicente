@@ -43,11 +43,23 @@
 
 ---
 
-<!-- <h2 align="center"> 📊 Estatísticas do GitHub </h2>
+<h2 align="center"> 📊 Estatísticas do GitHub </h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=BrunoBarbosaVicente&theme=radical" />
-</p> -->
+  <img
+    height="150"
+    src="https://github-readme-stats-sage-seven-49.vercel.app/api?username=BrunoBarbosaVicente&show_icons=true&theme=github_dark&hide_border=true&count_private=true"
+  />
+  <img
+    height="150"
+    src="https://github-readme-stats-sage-seven-49.vercel.app/api/top-langs/?username=BrunoBarbosaVicente&layout=compact&theme=github_dark&hide_border=true"
+  />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=BrunoBarbosaVicente&theme=dark&locale=pt_BR" alt="GitHub Streak" />
+</p>
+
 
 <h2 align="center"> 🐍 Minhas Contribuições </h2>
 
