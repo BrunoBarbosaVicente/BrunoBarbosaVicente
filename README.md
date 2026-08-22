@@ -65,11 +65,12 @@
 
 <!-- A cobrinha será gerada automaticamente pelo GitHub Actions -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/BrunoBarbosaVicente/BrunoBarbosaVicente/blob/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/BrunoBarbosaVicente/BrunoBarbosaVicente/blob/output/github-snake.svg" />
-    <img alt="Cobrinha das contribuições" src="https://github.com/BrunoBarbosaVicente/BrunoBarbosaVicente/blob/output/github-snake.svg" />
-  </picture>
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BrunoBarbosaVicente/BrunoBarbosaVicente/output/github-snake-dark.svg?v=2">
+      <img alt="Github Snake" src="https://raw.githubusercontent.com/BrunoBarbosaVicente/BrunoBarbosaVicente/output/github-snake.svg?v=2">
+    </picture>
+  </p>
 </div>
 
 ---
