@@ -1,0 +1,19 @@
+name: Update Streak Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Roda diariamente à meia-noite
+  workflow_dispatch: # Permite disparar manualmente na aba Actions
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          user: BrunoBarbosaVicente
+          theme: dark
+          locale: pt_BR
