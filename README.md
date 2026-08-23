@@ -57,7 +57,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=BrunoBarbosaVicente&theme=dark&locale=pt_BR" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/BrunoBarbosaVicente/BrunoBarbosaVicente/main/assets/streak.svg?v=1" alt="GitHub Streak" />
 </p>
 
 
