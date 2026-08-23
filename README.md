@@ -57,7 +57,8 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BrunoBarbosaVicente/BrunoBarbosaVicente/main/assets/streak.svg?v=1" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=BrunoBarbosaVicente&theme=dark&bg_color=0d1117&border=fe8019&stroke=fe8019&ring=fe8019&fire=fe8019&currStreakNum=fe8019&sideNums=ffffff&sideLabels=ffffff&dates=cccccc&locale=pt_BR&v=10" alt="GitHub Streak" />
+</p>
 </p>
 
 
