@@ -2,8 +2,8 @@ name: Update Streak Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Roda diariamente à meia-noite
-  workflow_dispatch: # Permite disparar manualmente na aba Actions
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-streak:
@@ -12,8 +12,18 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+
       - uses: DenverCoder1/github-readme-streak-stats@main
         with:
           user: BrunoBarbosaVicente
           theme: dark
           locale: pt_BR
+          output: assets/streak.svg
+
+      - name: Commit e Push do Streak
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/streak.svg
+          git commit -m "Atualizar Streak Stats" || exit 0
+          git push
